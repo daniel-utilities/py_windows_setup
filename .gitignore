@@ -11,14 +11,8 @@
 
 # Exclude generated VS Code databases, but keep project settings
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
-!.vscode/c_cpp_properties.json
-!.vscode/devcontainer.json
-!.vscode/launch.json
+!.vscode/*.json
+!.vscode/*.env
 
 # Log files
 *.log
@@ -30,15 +24,6 @@
 # Python bytecode
 __pycache__/
 *.pyc
-
-# Python Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
 # C/C++ Prerequisites
 *.d
